@@ -1,0 +1,7 @@
+2025-11-28 19:47:21 [main] INFO  log - **********Starting webdriver**************
+2025-11-28 19:47:23 [main] INFO  log - **********Launching URL**************
+2025-11-28 19:47:25 [main] INFO  log - **********Starting Login test**************
+2025-11-28 19:47:25 [main] INFO  log - **********Entering login credentials**************
+2025-11-28 19:47:26 [main] INFO  log - **********Clicking Login button**************
+2025-11-28 19:47:26 [main] INFO  log - **********Validating Page Title**************
+2025-11-28 19:47:26 [main] INFO  log - **********Closing the browser**************

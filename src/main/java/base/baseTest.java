@@ -8,6 +8,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.log;
 
 public class baseTest {
 	
@@ -15,6 +16,8 @@ public class baseTest {
 	
 	@BeforeMethod
 	public void setUp() {
+		
+		log.info("**********Starting webdriver**************");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		
@@ -22,13 +25,14 @@ public class baseTest {
         driver.manage().window().maximize();
         //driver.manage().timeouts().implicitlyWait(3000);  // Implicit Wait
         
-        
+        log.info("**********Launching URL**************");
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 	}
 	
 	@AfterMethod
 	public void tearDown() {
 		if (driver != null) {
+			log.info("**********Closing the browser**************");
             driver.quit();
 		}
 	}

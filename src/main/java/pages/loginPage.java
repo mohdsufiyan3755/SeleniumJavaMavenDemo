@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utils.log;
+
 public class loginPage {
 	
 	public WebDriver driver;
@@ -38,6 +40,7 @@ public class loginPage {
     }
 
     public void clickLoginButton() {
+    	log.info("**********Clicking Login button**************");
         loginButton.click();
     }
     
