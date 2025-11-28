@@ -5,3 +5,17 @@
 2025-11-28 19:47:26 [main] INFO  log - **********Clicking Login button**************
 2025-11-28 19:47:26 [main] INFO  log - **********Validating Page Title**************
 2025-11-28 19:47:26 [main] INFO  log - **********Closing the browser**************
+2025-11-28 20:13:55 [main] INFO  log - **********Starting webdriver**************
+2025-11-28 20:13:56 [main] INFO  log - **********Launching URL**************
+2025-11-28 20:13:59 [main] INFO  log - **********Starting Login test**************
+2025-11-28 20:13:59 [main] INFO  log - **********Entering login credentials**************
+2025-11-28 20:13:59 [main] INFO  log - **********Clicking Login button**************
+2025-11-28 20:14:00 [main] INFO  log - **********Validating Page Title**************
+2025-11-28 20:14:00 [main] INFO  log - **********Closing the browser**************
+2025-11-28 20:46:22 [main] INFO  log - **********Starting webdriver**************
+2025-11-28 20:46:23 [main] INFO  log - **********Launching URL**************
+2025-11-28 20:46:26 [main] INFO  log - **********Starting Login test**************
+2025-11-28 20:46:26 [main] INFO  log - **********Entering login credentials**************
+2025-11-28 20:46:26 [main] INFO  log - **********Clicking Login button**************
+2025-11-28 20:46:27 [main] INFO  log - **********Validating Page Title**************
+2025-11-28 20:46:27 [main] INFO  log - **********Closing the browser**************
