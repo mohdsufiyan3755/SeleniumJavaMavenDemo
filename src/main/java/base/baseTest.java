@@ -15,6 +15,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.EmailUtils;
 import utils.ExtentReportManager;
 import utils.log;
 
@@ -32,8 +33,8 @@ public class baseTest {
 	@AfterSuite
 	public void teardownReport() {
 		extent.flush();
-		// String reportPath = ExtentReportManager.reportPath;
-		// EmailUtils.sendTestReport(reportPath);
+		 String reportPath = ExtentReportManager.reportPath;
+		 EmailUtils.sendTestReport(reportPath);
 	}
 
 	@BeforeMethod

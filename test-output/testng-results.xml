@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-01T14:05:20 IST" name="Suite" finished-at="2025-12-01T14:05:31 IST" duration-ms="11265">
+  <suite started-at="2025-12-01T16:54:00 IST" name="Suite" finished-at="2025-12-01T16:54:18 IST" duration-ms="17873">
     <groups>
     </groups>
-    <test started-at="2025-12-01T14:05:20 IST" name="Test" finished-at="2025-12-01T14:05:31 IST" duration-ms="11265">
+    <test started-at="2025-12-01T16:54:00 IST" name="Test" finished-at="2025-12-01T16:54:18 IST" duration-ms="17873">
       <class name="tests.loginTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.loginTest@544fa968]" started-at="2025-12-01T14:05:20 IST" name="setupReport" finished-at="2025-12-01T14:05:20 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.loginTest@5e5d171f]" started-at="2025-12-01T16:54:00 IST" name="setupReport" finished-at="2025-12-01T16:54:00 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.loginTest@544fa968]" started-at="2025-12-01T14:05:20 IST" name="setUp" finished-at="2025-12-01T14:05:29 IST" duration-ms="9209" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.loginTest@5e5d171f]" started-at="2025-12-01T16:54:00 IST" name="setUp" finished-at="2025-12-01T16:54:16 IST" duration-ms="15895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.loginTest@544fa968]" started-at="2025-12-01T14:05:29 IST" name="verifySuccessfulLogin" finished-at="2025-12-01T14:05:31 IST" duration-ms="1752" status="PASS">
+        <test-method signature="verifySuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.loginTest@5e5d171f]" started-at="2025-12-01T16:54:16 IST" name="verifySuccessfulLogin" finished-at="2025-12-01T16:54:18 IST" duration-ms="1678" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,18 +31,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.loginTest@544fa968]" started-at="2025-12-01T14:05:31 IST" name="tearDown" finished-at="2025-12-01T14:05:31 IST" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.loginTest@5e5d171f]" started-at="2025-12-01T16:54:18 IST" name="tearDown" finished-at="2025-12-01T16:54:18 IST" duration-ms="261" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySuccessfulLogin status=SUCCESS method=loginTest.verifySuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.loginTest@544fa968] output={null}]]]>
+                <![CDATA[[TestResult name=verifySuccessfulLogin status=SUCCESS method=loginTest.verifySuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.loginTest@5e5d171f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.loginTest@544fa968]" started-at="2025-12-01T14:05:32 IST" name="teardownReport" finished-at="2025-12-01T14:05:32 IST" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.loginTest@5e5d171f]" started-at="2025-12-01T16:54:18 IST" name="teardownReport" finished-at="2025-12-01T16:54:24 IST" duration-ms="5910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownReport -->
