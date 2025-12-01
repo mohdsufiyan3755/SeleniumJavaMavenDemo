@@ -19,3 +19,52 @@
 2025-11-28 20:46:26 [main] INFO  log - **********Clicking Login button**************
 2025-11-28 20:46:27 [main] INFO  log - **********Validating Page Title**************
 2025-11-28 20:46:27 [main] INFO  log - **********Closing the browser**************
+2025-12-01 13:50:00 [main] INFO  log - **********Starting webdriver**************
+2025-12-01 13:50:12 [main] INFO  log - **********Launching URL**************
+2025-12-01 13:50:14 [main] INFO  log - **********Starting Login test**************
+2025-12-01 13:50:14 [main] INFO  log - **********Entering login credentials**************
+2025-12-01 13:50:17 [main] INFO  log - **********Clicking Login button**************
+2025-12-01 13:50:17 [main] INFO  log - **********Validating Page Title**************
+2025-12-01 13:50:17 [main] INFO  log - **********Closing the browser**************
+2025-12-01 13:50:17 [main] INFO  log - **********Starting webdriver**************
+2025-12-01 13:50:19 [main] INFO  log - **********Launching URL**************
+2025-12-01 13:50:22 [main] INFO  log - **********Starting Login test**************
+2025-12-01 13:50:22 [main] INFO  log - **********Entering login credentials**************
+2025-12-01 13:50:23 [main] INFO  log - **********Clicking Login button**************
+2025-12-01 13:50:23 [main] INFO  log - **********Validating Page Title**************
+2025-12-01 13:50:23 [main] INFO  log - **********Closing the browser**************
+2025-12-01 13:50:23 [main] INFO  log - **********Starting webdriver**************
+2025-12-01 13:50:24 [main] INFO  log - **********Launching URL**************
+2025-12-01 13:50:27 [main] INFO  log - **********Starting Login test**************
+2025-12-01 13:50:27 [main] INFO  log - **********Entering login credentials**************
+2025-12-01 13:50:28 [main] INFO  log - **********Clicking Login button**************
+2025-12-01 13:50:29 [main] INFO  log - **********Validating Page Title**************
+2025-12-01 13:50:29 [main] INFO  log - **********Closing the browser**************
+2025-12-01 13:57:42 [main] INFO  log - **********Starting webdriver**************
+2025-12-01 13:57:44 [main] INFO  log - **********Launching URL**************
+2025-12-01 13:57:48 [main] INFO  log - **********Starting Login test**************
+2025-12-01 13:57:48 [main] INFO  log - **********Entering login credentials**************
+2025-12-01 13:57:49 [main] INFO  log - **********Clicking Login button**************
+2025-12-01 13:57:49 [main] INFO  log - **********Validating Page Title**************
+2025-12-01 13:57:49 [main] INFO  log - **********Closing the browser**************
+2025-12-01 13:57:49 [main] INFO  log - **********Starting webdriver**************
+2025-12-01 13:57:50 [main] INFO  log - **********Launching URL**************
+2025-12-01 13:57:54 [main] INFO  log - **********Starting Login test**************
+2025-12-01 13:57:54 [main] INFO  log - **********Entering login credentials**************
+2025-12-01 13:57:54 [main] INFO  log - **********Clicking Login button**************
+2025-12-01 13:57:55 [main] INFO  log - **********Validating Page Title**************
+2025-12-01 13:57:55 [main] INFO  log - **********Closing the browser**************
+2025-12-01 13:57:55 [main] INFO  log - **********Starting webdriver**************
+2025-12-01 13:57:56 [main] INFO  log - **********Launching URL**************
+2025-12-01 13:57:58 [main] INFO  log - **********Starting Login test**************
+2025-12-01 13:57:58 [main] INFO  log - **********Entering login credentials**************
+2025-12-01 13:58:01 [main] INFO  log - **********Clicking Login button**************
+2025-12-01 13:58:01 [main] INFO  log - **********Validating Page Title**************
+2025-12-01 13:58:01 [main] INFO  log - **********Closing the browser**************
+2025-12-01 14:05:21 [main] INFO  log - **********Starting webdriver**************
+2025-12-01 14:05:23 [main] INFO  log - **********Launching URL**************
+2025-12-01 14:05:29 [main] INFO  log - **********Starting Login test**************
+2025-12-01 14:05:30 [main] INFO  log - **********Entering login credentials**************
+2025-12-01 14:05:30 [main] INFO  log - **********Clicking Login button**************
+2025-12-01 14:05:31 [main] INFO  log - **********Validating Page Title**************
+2025-12-01 14:05:31 [main] INFO  log - **********Closing the browser**************

@@ -9,7 +9,7 @@
           <include name="tearDown"/>
           <include name="teardownReport"/>
           <include name="setUp"/>
-          <include name="verifySuccessfulLogin"/>
+          <include name="verifySuccessfulLogin" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- tests.loginTest -->
     </classes>
