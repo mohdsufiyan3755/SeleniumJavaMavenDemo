@@ -39,12 +39,14 @@ public class loginTest extends baseTest {
 	}
 
 //	@Test(dataProvider = "LoginData2", priority = 1, description = "Verify successful login with valid credentials")
-	@Test
+	
 //	@Parameters({"username","password"})
-	public void verifySuccessfulLogin(String username, String password) {
+//	public void verifySuccessfulLogin(String username, String password) {
+	@Test
+	public void verifySuccessfulLogin() {
 		// Initialize Page Object
 		log.info("**********Starting Login test**************");
-		test = ExtentReportManager.createTest("Login Test - " + username);
+		test = ExtentReportManager.createTest("Login Test - ");
 		loginPage login = new loginPage(driver);
 		log.info("**********Entering login credentials**************");
 		test.info("Adding Credentails");
