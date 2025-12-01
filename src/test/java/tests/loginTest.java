@@ -40,7 +40,7 @@ public class loginTest extends baseTest {
 
 //	@Test(dataProvider = "LoginData2", priority = 1, description = "Verify successful login with valid credentials")
 	@Test
-	@Parameters({"username","password"})
+//	@Parameters({"username","password"})
 	public void verifySuccessfulLogin(String username, String password) {
 		// Initialize Page Object
 		log.info("**********Starting Login test**************");
@@ -48,10 +48,10 @@ public class loginTest extends baseTest {
 		loginPage login = new loginPage(driver);
 		log.info("**********Entering login credentials**************");
 		test.info("Adding Credentails");
-//		login.enterUsername("student");
-//		login.enterPassword("Password123");
-		login.enterUsername(username);
-		login.enterPassword(password);
+		login.enterUsername("student");
+		login.enterPassword("Password123");
+//		login.enterUsername(username);
+//		login.enterPassword(password);
 		test.info("Clicking on Login button");
 		login.clickLoginButton();
 		log.info("**********Validating Page Title**************");
