@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -14,6 +16,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 
+import config.PropertiesFile;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.EmailUtils;
 import utils.ExtentReportManager;
@@ -24,6 +27,8 @@ public class baseTest {
 	protected WebDriver driver;
 	protected static ExtentReports extent;
 	protected ExtentTest test;
+	public static String browserName=null;
+	public static String baseURL = null;
 
 	@BeforeSuite
 	public void setupReport() {
@@ -39,17 +44,30 @@ public class baseTest {
 
 	@BeforeMethod
 	public void setUp() {
-
-		log.info("**********Starting webdriver**************");
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		
+		PropertiesFile.getProperties();
+		if(browserName.equalsIgnoreCase("chrome")) {
+			log.info("**********Starting webdriver**************");
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		}
+		else if(browserName.equalsIgnoreCase("firefox")) {
+			log.info("**********Starting webdriver**************");
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		}
+		else if(browserName.equalsIgnoreCase("edge")) {
+			log.info("**********Starting webdriver**************");
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		}
 
 		// General setup
 		driver.manage().window().maximize();
 		// driver.manage().timeouts().implicitlyWait(3000); // Implicit Wait
 
 		log.info("**********Launching URL**************");
-		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.get(baseURL);
 	}
 
 	@AfterMethod
